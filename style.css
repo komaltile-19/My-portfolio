@@ -9,6 +9,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #FFE5B4, #FF7F50);
+
 }
 
 html {
@@ -296,7 +298,10 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+    background: linear-gradient(to right, #e79578, #FFE5B4);
+  border: 1px solid #FFF5E1 ;
+
+  color: #3B3B3B;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -360,8 +365,9 @@ article .icon {
 }
 
 .color-container {
-  border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+  background-color: #FFF5E1;
+  border: 1px solid #FFB6B6;
+  color: #3B3B3B;
 }
 
 .project-img {
